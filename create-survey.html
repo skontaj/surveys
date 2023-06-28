@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Create a survey</title>
+  
+  <link rel="stylesheet" type="text/css" href="css/create.css">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  
+  <link rel="stylesheet" type="text/css" href="css/naslovnaLinija.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  
+</head>
+<body>
+
+  <header>
+    
+  </header>
+  
+  <br><br><br><br><br>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+  
+    <h1 class="title">Create a survey</h1>
+<form class="survey-form" action="/save-survey" method="POST">
+  <label for="question" class="label">Question:</label>
+  <input type="text" id="question" name="question" class="input" required>
+  
+  <label for="options" class="label">Answers (Separate answers with a comma):</label>
+  <input type="text" id="options" name="options" class="input" placeholder="Separate the answers with a comma" required>
+  
+  <button type="submit" class="submit-btn">Create a survey</button>
+</form>
+
+  
+      </div>
+    </div>
+  </div>
+
+  
+  <script src="js/naslovnaLinija.js"></script>
+  
+</body>
+</html>

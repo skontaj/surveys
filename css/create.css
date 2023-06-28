@@ -1,0 +1,44 @@
+.title {
+  text-align: center;
+}
+
+.survey-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.label {
+  display: block;
+  margin-top: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+#error-message {
+  color: red;
+  font-weight: 550;
+  padding: 10px;
+}

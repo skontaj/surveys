@@ -1,0 +1,66 @@
+/* Stilizacija liste anketa */
+#survey-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Stilizacija svake ankete */
+.survey-item {
+  margin-bottom: 40px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Stilizacija naslova pitanja */
+.question-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Stilizacija liste opcija */
+.options-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+/* Stilizacija svake opcije */
+.option-item {
+  margin-bottom: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Stilizacija radio gumba */
+.option-radio {
+  margin-right: 5px;
+}
+
+/* Stilizacija gumba za slanje odgovora */
+.submit-btn {
+  padding: 5px 10px;
+  background-color: green;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Sakrivanje pitanja i opcija nakon odgovora */
+.question-heading[style="display: none;"],
+.options-list[style="display: none;"],
+.submit-btn[style="display: none;"] {
+  display: none;
+}
+
+/* Stilizacija poruke o uspješnom spremanju odgovora (opciono) */
+.success-message {
+  color: green;
+}
+
+.error-text {
+  margin-top: 15px;
+  color: red;
+}
