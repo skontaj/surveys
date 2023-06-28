@@ -16,7 +16,7 @@ The application is built using the following technologies:
 
 1. Clone this repository to your computer.
 2. Run the `npm install` command in the main directory to install all the necessary dependencies.
-3. Create a MySQL database with the required tables. Set the database information in the `config.js` file.
+3. Create a MySQL database with the required tables. Set the database information in the `db.js` file.
 4. Start the application using the `npm start` command.
 5. Open your browser and access the application at `http://localhost:3000`.
 
