@@ -3,9 +3,9 @@ const mysql = require('mysql');
 // Konfigurirajte MySQL vezu
 const connection = mysql.createConnection({
   host: 'localhost',
-  user: 'skontaj',
+  user: 'username',
   password: 'mysql',
-  database: 'ankete',
+  database: 'surveys',
 });
 
 // Provjerite je li uspostavljena veza s bazom podataka
